@@ -20,6 +20,7 @@
   </style>
   </head>
   <body>
+    <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">
@@ -53,10 +54,15 @@
       </div>
     </div>
   </nav>
+  <!-- End Navbar -->
+
+     <!-- Table -->
   <div class="container">
         <h2 class="text-center pt-4" style="color : black;">Transaction History</h2>
         
        <br>
+
+    
        <div class="table-responsive-sm">
     <table class="table table-hover table-striped">
         <thead style="color : white;" class="table-dark">
@@ -96,6 +102,9 @@ while($rows = mysqli_fetch_assoc($query))
 
     </div>
 </div>
+<!-- End Table -->
+
+<!-- Footer -->
 <footer style="margin-top:200px;">
     <div class="follow">
       <h3 style="color: black; font-family: 'Baloo Bhai 2', cursive; font-size: 25px;">Follow Us</h3>
@@ -118,6 +127,7 @@ while($rows = mysqli_fetch_assoc($query))
       Copyright &copy; 2021 All rights reserved
     </p>
   </footer>
+<!-- End Footer -->
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

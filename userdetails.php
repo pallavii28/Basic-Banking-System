@@ -100,6 +100,7 @@ if(isset($_POST['submit']))
   </style>
   </head>
   <body>
+    <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">
@@ -133,6 +134,9 @@ if(isset($_POST['submit']))
       </div>
     </div>
   </nav>
+<!-- End Navbar -->
+
+  <!-- Table -->
   <div class="container">
         <h2 class="text-center pt-4" style="color : black;">Transaction</h2>
             <?php
@@ -199,7 +203,11 @@ if(isset($_POST['submit']))
             </div>
         </form>
     </div>
-  <footer>
+<!-- End Table -->
+
+    <!-- Footer -->
+  
+    <footer>
     <div class="follow">
       <h3 style="color: black; font-family: 'Baloo Bhai 2', cursive; font-size: 25px;">Follow Us</h3>
       <div class="social">
@@ -221,6 +229,8 @@ if(isset($_POST['submit']))
       Copyright &copy; 2021 All rights reserved
     </p>
   </footer>
+  <!-- End Footer -->
+
  <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

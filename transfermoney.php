@@ -25,6 +25,8 @@
     $sql = "SELECT * FROM users";
     $result = mysqli_query($conn,$sql);
 ?>
+
+<!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">
@@ -58,6 +60,9 @@
       </div>
     </div>
   </nav>
+<!-- End Navbar -->
+
+  <!-- Table -->
   <div class="container">
         <h2 class="text-center pt-4" style="color : black;">Transfer Money</h2>
         <br>
@@ -95,8 +100,10 @@
                 </div>
             </div> 
          </div>
+         <!-- End Table -->
 
-         <footer>
+         <!-- Footer -->
+  <footer>
     <div class="follow">
       <h3 style="color: black; font-family: 'Baloo Bhai 2', cursive; font-size: 25px;">Follow Us</h3>
       <div class="social">
@@ -118,7 +125,7 @@
       Copyright &copy; 2021 All rights reserved
     </p>
   </footer>
-
+<!-- Footer -->
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

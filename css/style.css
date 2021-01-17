@@ -1,10 +1,11 @@
-
+/* css reset */
 *{
     padding: 0px;
     margin: 0px;
     
 }
 
+/* Home */
  section.topContent {
     display: flex;
     align-items: center;
@@ -49,6 +50,9 @@ section.topContent .topContentImg {
     margin: auto;
     margin-top: 20px;
 }
+/* End Home */
+
+/* Heading */
 .heading{
     color: rgb(18, 18, 245);
     font-size: 35px;
@@ -58,13 +62,38 @@ section.topContent .topContentImg {
     font-family: 'Baloo Bhai 2', cursive;
 
 }
+/* End Heading */
+
+/* Text */
 .text{
     font-family: 'Baloo Bhai 2', cursive;
-    font-size: 25px;
-   
-    
+    font-size: 25px;    
 }
+/* End Text */
 
+/* Card */
+.card:hover{
+    box-shadow: 5px 10px whitesmoke;
+}   
+
+/* End Card */
+
+/* Footer */
+
+footer{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+   font-family: sans-serif; 
+   color: rgb(202, 187, 187);
+   background-color:#f8f9fa!important;
+   margin: 0px;
+   margin-top: 50px;
+   padding-top: 25px;
+}
 
 .text-copy{
     text-align: center;
@@ -74,13 +103,9 @@ section.topContent .topContentImg {
    justify-content: center;
    color: rgb(206, 194, 194);
    background-color: #f8f9fa!important;
-   margin: 0px;
-
-   
+   margin: 0px;   
 }
-.card:hover{
-    box-shadow: 5px 10px whitesmoke;
-}   
+
 .social{
     margin-top: 10px;
 }
@@ -112,20 +137,8 @@ section.topContent .topContentImg {
     color: white;   
      }
 
-footer{
-	
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-    text-align: center;
-   font-family: sans-serif; 
-   color: rgb(202, 187, 187);
-   background-color:#f8f9fa!important;
-   margin: 0px;
-   margin-top: 50px;
-   padding-top: 25px;
-}
+/* End Footer */
+
 #contact{
     width: 600px;
 }
