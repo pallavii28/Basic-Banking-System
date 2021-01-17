@@ -2,6 +2,8 @@
 
 Project developed during my Internship at The Sparks Foundation
 
+# Submitted by Pallavi Rawat 
+
 # AIM 
 Create a simple dynamic website which has the following specs.
 
