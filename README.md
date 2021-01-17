@@ -1,20 +1,8 @@
-# Basic-Banking-System
+# Task 1: Basic-Banking-System
 
-Project developed during my Internship at The Sparks Foundation
+# Submitted by: Pallavi Rawat 
 
-# Submitted by Pallavi Rawat 
-
-# AIM 
-Create a simple dynamic website which has the following specs.
-
-Start with creating a dummy data in database for upto 10 customers. Database options: Mysql, Mongo, Postgres, etc. Customers table will have basic fields such as name, email, current balance etc. Transfers table will record all transfers happened.
-
-Flow: Home Page > View all Customers > Select and View one Customer > Transfer Money > Select customer to transfer to > View all Customers
-
-No Login Page. No User Creation. Only transfer of money between multiple users.
-
-Host the website at 000webhost, github.io, heroku app or any other free hosting provider. Check in code in github.
-
+It is a Basic Banking System for making transactions between users. It can transfer Money between multiple accounts,view all Customer's data and view all the past transactions happened between different accounts.
 # Stack used
 FRONT END: HTML, CSS, JavaScript, Bootstrap
 
@@ -24,5 +12,4 @@ DATABASE: MySQL
 
 TO RUN PROJECT save the project in c/xampp/htdocs/ open xampp server. open php my admin and import the sql file in that. start Apache and Mysql. open chrome localhost/projrctname/index.php
 
-The Website is Hosted at 000webhost.
-Here is the link for this website: https://presentient-club.000webhostapp.com/TSF-Bank/
+Check my website here: https://presentient-club.000webhostapp.com/TSF-Bank/
